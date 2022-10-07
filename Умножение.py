@@ -22,9 +22,14 @@ while 1:
 		print ("Не правильно! минус жизнь.")
 		life=life-1
 	
+	time+=1;#time=time+1 time++
+	
 	if life==0:
 		print ("Учи таблицу!")
 		break
 
+	if time>10:
+		print ("Поззравляемс! Ты гений умножения!")
+		break
 
 
